@@ -1,11 +1,12 @@
 package com.example.hw_3_6_month.ui.viewpager
+import android.view.LayoutInflater
 import com.example.hw_3_6_month.BaseFragment
 import com.example.hw_3_6_month.databinding.FragmentHistoryBinding
 
 
 class FragmentHistory : BaseFragment<FragmentHistoryBinding>() {
 
-    override fun inflateViewBinding(): FragmentHistoryBinding {
+    override fun inflateViewBinding(layoutInflater: LayoutInflater): FragmentHistoryBinding {
         return FragmentHistoryBinding.inflate(layoutInflater)
     }
 
